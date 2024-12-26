@@ -1,0 +1,7 @@
+
+services:
+  app:
+    image: to-do-app
+    build: .
+    ports:
+      - "3123:3000"
