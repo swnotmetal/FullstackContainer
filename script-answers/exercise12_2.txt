@@ -1,0 +1,63 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20241210005809
+Username: DESKTOP-KMLAEST\shuangboi
+RunAs User: DESKTOP-KMLAEST\shuangboi
+Configuration Name: 
+Machine: DESKTOP-KMLAEST (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\shuangboi\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 10172
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is exercise12_2.txt
+]633;D;0]633;A]633;P;Cwd=D:\x5ccodes\x5cdocker\x5cpart12-containers-applications\x5cscript-answersPS D:\codes\docker\part12-containers-applications\script-answers> ]633;B
+PS>docker pull ubuntu
+
+]633;D;0]633;A]633;P;Cwd=D:\x5ccodes\x5cdocker\x5cpart12-containers-applications\x5cscript-answersPS D:\codes\docker\part12-containers-applications\script-answers> ]633;B
+PS>docker container run -it ubuntu
+
+]633;D;0]633;A]633;P;Cwd=D:\x5ccodes\x5cdocker\x5cpart12-containers-applications\x5cscript-answersPS D:\codes\docker\part12-containers-applications\script-answers> ]633;B
+PS>Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20241210010241
+**********************
+The following was copied from container log as script is not a valid command in Windows.
+2024-12-10 01:00:46 root@1bd8965ce357:/# mkdir usr
+
+root@1bd8965ce357:/# mkdir usr
+
+root@1bd8965ce357:/# mkdir usr
+
+root@1bd8965ce357:/# mkdir -p usr/src/app
+2024-12-10 01:00:58 
+root@1bd8965ce357:/# ls
+2024-12-10 01:00:58 
+bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
+2024-12-10 01:01:04 root@1bd8965ce357:/# cd usr
+2024-12-10 01:01:06 
+root@1bd8965ce357:/usr# ls
+2024-12-10 01:01:06 
+bin  games  include  lib  lib64  libexec  local  sbin  share  src
+2024-12-10 01:01:15 root@1bd8965ce357:/usr# cd src
+2024-12-10 01:01:16 
+root@1bd8965ce357:/usr/src# ls
+2024-12-10 01:01:16 
+app
+2024-12-10 01:01:22 root@1bd8965ce357:/usr/src# cd app
+2024-12-10 01:02:00 
+root@1bd8965ce357:/usr/src/app# touch index.js
+2024-12-10 01:02:02 
+root@1bd8965ce357:/usr/src/app# ls
+2024-12-10 01:02:02 
+index.js
+2024-12-10 01:02:26 root@1bd8965ce357:/usr/src/app# exit  
+2024-12-10 01:02:26 
+exit
