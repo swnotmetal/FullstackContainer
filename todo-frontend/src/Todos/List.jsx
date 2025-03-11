@@ -4,7 +4,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
 
-const TodoList = ({ todos, deleteTodo, completeTodo }) => {
+export const TodoList = ({ todos, deleteTodo, completeTodo }) => {
   const onClickDelete = (todo) => () => {
     deleteTodo(todo)
   }
